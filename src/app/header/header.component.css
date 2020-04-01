@@ -31,12 +31,12 @@ option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em
 .cart-icon li i{font-size: 22px;font-weight: 600;font-style: normal;color: #fff;}
 /* .navbar-header{width: 100%;} */
 .navbar-header button{background-color: #000;}
-.width{width: 100%;padding: 10px 10px;}
+.width{width: 100%;}
 .form-elenent{margin: 12px 0;}
 .navbar-brand{padding-top: 12px;padding-bottom: 15px;}
 .form-elenent .form-control{width: 400px;height: 40px;border: none;padding: 0 30px;font-size: 14px;}
 .navigation-menu{flex-direction: row;float: right;}
-.navigation-menu li{margin-right: 60px;}
+.navigation-menu li{margin-right: 10px;}
 .navigation-menu li:last-child{margin-right: 0;}
 .navigation-menu li a{color: #000;padding-top: 0px;padding-bottom: 0px;font-size: 20px;padding: 0;}
 /* .navigation-menu li a:hover{background-color: #fff;color: #dc3545;box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);-moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);} */
@@ -46,7 +46,7 @@ option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em
 .cart-icon li a:hover{background-color: #fff;box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);-moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);}
 .navigation-menu li a,.cart-icon li a,.cart-icon li a:hover i{transition: all 0.4s ease-in-out;-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;}
 .navbar-toggle .icon-bar{background-color: #fff;}
-.logo{color: #000;font-size: 40px;padding-top: 0;padding-bottom: 0;line-height: 42px;}
+.logo{color: #000;font-size: 40px;padding-top: 0;padding-bottom: 0;line-height: 50px;font-family: 'Nunito', sans-serif;font-weight: 800;}
 .navigation-menu li a{line-height: 47px;font-size: 15px;}
 .dropdown ul li{margin-right: 0;}
 .dropdown-menu{border: none;top: 10px !important;}
@@ -68,15 +68,5 @@ i{font-family: fontawesome;}
 .login form i{position: absolute;top: 9px;left: 11px;padding: 0 10px;font-size: 12px;line-height: 22px;color: #5c5c5f;}
 .login form input{border: none;box-shadow: none;padding: 12px 40px;width: 200px;border: 1px solid transparent;border-radius: 25px;height: 40px;font-size: 14px;}
 .login form input:focus{border: 1px solid #5c5c5f;}
-.top-header{padding: 0 20px;}
-.cart {
-  float: right;
-  text-align: right;
-  max-width: 100%;
-  width: auto;
-}
-.cart .dropdown{float: left;width: auto;margin-right: 30px;}
-.toolbar-cart{float: right;width: auto;}
-.cart .dropdown button{padding: 0 20px;font-size: 14px;line-height: 37px;border: 1px solid #5c5c5f;}
-.toolbar-cart span{font-size: 14px;line-height: 35px;margin-right: 8px;color: #5c5c5f;}
-.toolbar-cart i{font-size: 14px;color: #5c5c5f;}
+.header-menu li a{float: left;width: 100%;padding: 0 20px;border-radius: 50px 20px 50px 20px;font-size: 16px;line-height: 51px;font-family: 'Nunito', sans-serif;font-weight: 500;}
+.header-menu li a:hover{background-color: #e8ea39;}
