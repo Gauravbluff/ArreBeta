@@ -24,17 +24,17 @@ option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em
     .center{text-align: center;}
     i{font-family: fontawesome;}
     .margin-bottom{margin-bottom: 50px;}
-    .site-info:hover i,.site-info:hover span{transition: all 0.4s ease-in-out;-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;}
+    .site-info:hover i,.site-info:hover span,.site-info,.service-section .services-info:hover .hover-effect .hover-display span{transition: all 0.4s ease-in-out;-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;}
 /* common css end */
 
     .banner {min-height:550px;position: relative;display: flex;flex-wrap: wrap;padding-top: 70px;}
     .banner figure{float: left; width: 100%; position: absolute; top: 0; left: 0; bottom: 0; right: 0; margin: auto; width: 100%; height: 100%; object-fit: cover; }
     .banner figure img{width: 100%; height: 100%; object-fit: cover; }
     .home-page-banner-content{width: 100%; position: relative; align-items: center;padding: 90px 0;z-index: 111;}
-    .home-page-banner-content h1{float: left;width: 100%;font-size: 60px;color: #ee4e0f;text-align: center;}
+    .home-page-banner-content h1{float: left;width: 100%;font-size: 60px;color: #fff;text-align: center;line-height: 90px;font-family: 'Nunito', sans-serif;font-weight: 900;}
     .home-page-banner-content h5 strong{float: left;width: 100%;font-size: 40px;color: #d0d310}
     .home-page-banner-content h3 strong{float: left;width: 100%;font-size: 40px;color: #f5ecec}
-    .home-page-banner-content h3{margin-top: 0px;text-align: center;font-size: 40px;color: #fff;margin-bottom: 60px;}
+    .home-page-banner-content h3{margin-top: 0px;text-align: center;font-size: 40px;color: #fff;margin-bottom: 60px;line-height: 60px;font-family: 'Nunito', sans-serif;font-weight: 700;}
     .form-elenent{width: 100%;float: left;}
     .form-elenent .form-control{width: 400px;height: 40px;border: none;padding: 0 30px;font-size: 14px;}
     .flex{display: flex;flex-wrap: wrap;align-content: center;justify-content: center;}
@@ -58,9 +58,22 @@ option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em
         .site-info:hover span{color: #000;}
 
         /* services css start */
+        .wrapper{text-align: center;display: block;overflow: hidden;}
         .services{margin-top: 60px;}
-        .services-info{margin-bottom: 30px;}
-        .services-info figure{float: left;width: 100%;height: 100%;margin-bottom: 10px;}
+        .services-info{margin-bottom: 30px;width: 270px;float: none;display: inline-block;}
+        .services-info figure{float: left;width: 100%;height: 100%;margin-bottom: 10px;display: block;overflow: hidden;}
         .services-info figure img{float: none;width: 270px;height: 290px;display: inline-block;}
         .services-info a{display: inline-block;width: auto;padding: 10px 50px;border: 1px solid #fff;background-color: #d0d310;color: #fff;border-radius: 25px;font-family: 'Nunito', sans-serif;font-weight: 900;font-size: 14px;line-height: 17px;}
+        .hover-effect{position: relative;}
+        .hover-display{position: absolute;top: 0;left: 0;right: 0;bottom: 0;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;width: 100%;}
+        .hover-display span{float: left;padding: 20px 30px;background-color: #fff;font-size: 12px;line-height: 18px;opacity: 0;}
+        .service-section .services-info:hover .hover-effect .hover-display span{opacity: 1;}
+        .services-info figure img{transform: scale(1) translate3d(0, 0, 0);transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);}
+        .service-section .services-info:hover figure img{transform: scale(1.1) translate3d(0, 0, 0);}
+        .site-info{width: 110px;height: 110px;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;background-color: #fff;border-radius: 50%;padding: 20px 10px;max-width: 100%;float: none;display: inline-block;-moz-box-shadow: 11px 11px 11px rgba(68, 68, 68, 0.6);-webkit-box-shadow: 11px 11px 11px rgba(68, 68, 68, 0.6);box-shadow: 11px 11px 11px rgba(68, 68, 68, 0.6);}
+        .site-info i{float: left;width: 100%;text-align: center;color: #000;margin: 0;margin-bottom: 10px;}
+        .site-info span{float: left;width: 100%;color: #000;}
+        .site-info:hover{background-color: #0757a2;}
+        .site-info:hover i{color: #fff;}
+        .site-info:hover span{color: #fff;}
         /* services css end */
