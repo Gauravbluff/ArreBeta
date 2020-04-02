@@ -1,4 +1,4 @@
-    /*Reset css start*/
+/*Reset css start*/
 ul{list-style-type: none;padding: 0;margin: 0;text-decoration: none;}
 a{text-decoration: none;}
 i{font-style: normal;}
@@ -25,6 +25,8 @@ option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em
     i{font-family: fontawesome;}
     .margin-bottom{margin-bottom: 50px;}
     .site-info:hover i,.site-info:hover span,.site-info,.service-section .services-info:hover .hover-effect .hover-display span{transition: all 0.4s ease-in-out;-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;}
+    h2{font-size: 50px;line-height: 72px;font-family: 'Nunito', sans-serif;font-weight: 900;}
+    .margin-top{margin-top: 50px;}
 /* common css end */
 
     .banner {min-height:550px;position: relative;display: flex;flex-wrap: wrap;padding-top: 70px;}
@@ -62,18 +64,34 @@ option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em
         .services{margin-top: 60px;}
         .services-info{margin-bottom: 30px;width: 270px;float: none;display: inline-block;}
         .services-info figure{float: left;width: 100%;height: 100%;margin-bottom: 10px;display: block;overflow: hidden;}
-        .services-info figure img{float: none;width: 270px;height: 290px;display: inline-block;}
-        .services-info a{display: inline-block;width: auto;padding: 10px 50px;border: 1px solid #fff;background-color: #d0d310;color: #fff;border-radius: 25px;font-family: 'Nunito', sans-serif;font-weight: 900;font-size: 14px;line-height: 17px;}
+        .services-info figure img{float: none;width: 270px;height: 200px;display: inline-block;}
+        .services-info a{display: inline-block;width: auto;padding: 10px 50px;border: 1px solid #fff;background-color: #0757a2;color: #fff;border-radius: 25px;font-family: 'Nunito', sans-serif;font-weight: 900;font-size: 14px;line-height: 17px;}
         .hover-effect{position: relative;}
         .hover-display{position: absolute;top: 0;left: 0;right: 0;bottom: 0;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;width: 100%;}
-        .hover-display span{float: left;padding: 20px 30px;background-color: #fff;font-size: 12px;line-height: 18px;opacity: 0;}
+        .hover-display span{float: left;padding: 10px 20px;background-color: #fff;font-size: 12px;line-height: 18px;opacity: 0;}
         .service-section .services-info:hover .hover-effect .hover-display span{opacity: 1;}
         .services-info figure img{transform: scale(1) translate3d(0, 0, 0);transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);}
         .service-section .services-info:hover figure img{transform: scale(1.1) translate3d(0, 0, 0);}
-        .site-info{width: 110px;height: 110px;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;background-color: #fff;border-radius: 50%;padding: 20px 10px;max-width: 100%;float: none;display: inline-block;-moz-box-shadow: 11px 11px 11px rgba(68, 68, 68, 0.6);-webkit-box-shadow: 11px 11px 11px rgba(68, 68, 68, 0.6);box-shadow: 11px 11px 11px rgba(68, 68, 68, 0.6);}
+        .site-info{width: 130px;height: 130px;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;background-color: #fff;border-radius: 50%;padding: 32px 10px;max-width: 100%;float: none;display: inline-block;-moz-box-shadow: 11px 11px 11px rgba(68, 68, 68, 0.6);-webkit-box-shadow: 11px 11px 11px rgba(68, 68, 68, 0.6);box-shadow: 11px 11px 11px rgba(68, 68, 68, 0.6);}
         .site-info i{float: left;width: 100%;text-align: center;color: #000;margin: 0;margin-bottom: 10px;}
-        .site-info span{float: left;width: 100%;color: #000;}
+        .site-info span{float: left;width: 100%;color: #000;font-weight: 700;}
         .site-info:hover{background-color: #0757a2;}
         .site-info:hover i{color: #fff;}
         .site-info:hover span{color: #fff;}
         /* services css end */
+
+        /* why us css start */
+        .why-us-image figure{width: 100%;height: 100%;display: inline-block;text-align: center;}
+        .why-us-image figure img{width: 260px;height: 300px;display: inline-block;}
+        .why-us p{font-size: 15px;line-height: 27px;text-align: center;padding: 82px 0;}
+        /* why us css end */
+
+        /* our qualites start */
+        .quality h2{margin-bottom: 20px;}
+        .our-quality{padding: 30px 30px;-moz-box-shadow: 8px 3px 22px rgba(68, 68, 68, 0.6);-webkit-box-shadow: 8px 3px 22px rgba(68, 68, 68, 0.6);box-shadow: 8px 3px 22px rgba(68, 68, 68, 0.6);margin-bottom: 30px;}
+        .our-quality-image{display: inline-block;vertical-align: middle;width: 100px;}
+        .our-quality-image figure{float: left;width: 100%;height: 100%;}
+        .our-quality-image figure img{width: 200px;height: 100px;float: left;}
+        .content{display: inline-block;width: calc(100% - 100px);padding-left: 12px;vertical-align: middle;}
+        .content p{font-size: 14px;line-height: 18px;}
+        /* our qualities end */
