@@ -15,6 +15,7 @@ import { NonvegComponent } from './nonveg/nonveg.component';
 import { MedicineComponent } from './medicine/medicine.component';
 import { GiftsComponent } from './gifts/gifts.component';
 import { ArrebetaforbusinessComponent } from './arrebetaforbusiness/arrebetaforbusiness.component';
+import { LocationComponent } from './location/location.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ArrebetaforbusinessComponent } from './arrebetaforbusiness/arrebetaforb
     NonvegComponent,
     MedicineComponent,
     GiftsComponent,
-    ArrebetaforbusinessComponent
+    ArrebetaforbusinessComponent,
+    LocationComponent
   ],
   imports: [
     BrowserModule,

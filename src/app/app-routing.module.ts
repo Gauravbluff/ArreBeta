@@ -10,7 +10,7 @@ import { MedicineComponent } from './medicine/medicine.component';
 import { ContactComponent } from './contact/contact.component';
 import { FoodfromresturantComponent } from './foodfromresturant/foodfromresturant.component';
 import { ArrebetaforbusinessComponent } from './arrebetaforbusiness/arrebetaforbusiness.component';
-
+import { LocationComponent } from './location/location.component';
 
 const routes: Routes = [
   {
@@ -56,6 +56,10 @@ const routes: Routes = [
   {
     path:'business',
     component:ArrebetaforbusinessComponent
+  },
+  {
+    path:'location',
+    component:LocationComponent
   },
   {
     path:'**',
