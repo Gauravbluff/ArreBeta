@@ -21,8 +21,8 @@ option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em
 
 /* common css start */
     .full-width{float: left;width: 100%;}
-    h3{float: left;width: 100%;font-size: 29px;line-height: 40px;font-family: 'Nunito', sans-serif;font-weight: 
-    700;}
+    h3{float: left;width: 100%;font-size: 29px;line-height: 40px;font-family: 'Nunito', sans-serif;font-weight: 700;}
+    h5{float: left;width: 100%;font-size: 20px;line-height: 30px;font-family: 'Nunito', sans-serif;font-weight: 700;}
     p{float: left;width: 100%;font-size: 17px;line-height: 23px;font-family: 'Nunito', sans-serif;font-weight: 
     400;}
     i{font-family: fontawesome;}
@@ -48,4 +48,8 @@ option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em
     .terms p a{text-decoration: underline;}
     .confirm-btn{margin-top: 20px;}
     .confirm-btn a{float: left;background-color: #bdbec8;color: #fff;padding: 10px 50px;border-radius: 25px;font-size: 12px;line-height: 20px;}
+    .rules{min-height: 629px;}
+    .rules h5{margin-bottom: 10px;}
+    .rules p{font-style: 14px;line-height: 19px;margin-bottom: 20px;}
+    .rules p span{font-weight: 900;margin-right: 10px;}
 /* location css end */
