@@ -21,8 +21,7 @@ option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em
 
 .full-width-header,.full-width{float: left;width: 100%;}
 .header{background-color: #fff;color: #000;position: fixed;z-index: 11111;width: 100%;padding: 10px 0;}
-.box-shadow{-moz-box-shadow: 0px 0px 3px rgba(68, 68, 68, 0.6);-webkit-box-shadow: 0px 0px 3px rgba(68, 68, 68, 0.6);
-  box-shadow: 0px 0px 3px rgba(68, 68, 68, 0.6);}
+.box-shadow{-moz-box-shadow: 0px 0px 3px rgba(68, 68, 68, 0.6);-webkit-box-shadow: 0px 0px 3px rgba(68, 68, 68, 0.6);box-shadow: 0px 0px 3px rgba(68, 68, 68, 0.6);}
 .cart-icon{font-family: 'FontAwesome';margin: 7px 0;}
 .cart-icon{flex-direction: row;display: flex;flex-wrap: wrap;margin: 0 0;}
 .cart-icon li{margin-right: 5px;}
