@@ -27,6 +27,7 @@ option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em
     .site-info:hover i,.site-info:hover span,.site-info,.service-section .services-info:hover .hover-effect .hover-display span{transition: all 0.4s ease-in-out;-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;}
     h2{font-size: 50px;line-height: 72px;font-family: 'Nunito', sans-serif;font-weight: 900;}
     .margin-top{margin-top: 50px;}
+    ::selection,-moz-selection,-webkit-selection,-ms-selection,-moz-selection,-o-selection {color: #fff; background: #0757a2;}
 /* common css end */
 
     .banner {min-height:550px;position: relative;display: flex;flex-wrap: wrap;padding-top: 70px;}

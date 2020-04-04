@@ -70,3 +70,4 @@ i{font-family: fontawesome;}
 .login form input:focus{border: 1px solid #5c5c5f;}
 .header-menu li a{float: left;width: 100%;padding: 0 20px;border-radius: 50px 20px 50px 20px;font-size: 16px;line-height: 51px;font-family: 'Nunito', sans-serif;font-weight: 500;}
 .header-menu li a:hover{background-color: #0f64b7;color: #fff;}
+::selection,-moz-selection,-webkit-selection,-ms-selection,-moz-selection,-o-selection {color: #fff; background: #0757a2;}

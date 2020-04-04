@@ -24,7 +24,8 @@ address{margin: 0;}
     .full-width{float: left;width: 100%;}
     i{font-family: fontawesome;}
     h4{float: left;width: 100%;font-family: 'Nunito', sans-serif;font-weight: 900;font-size: 23px;line-height: 26px;margin-bottom: 20px;}
-/* common css end */
+    ::selection,-moz-selection,-webkit-selection,-ms-selection,-moz-selection,-o-selection {color: #fff; background: #0757a2;}
+    /* common css end */
 
 /* footer css start */
     .footer{background-color: #0757a2;color: #fff;padding: 50px 0;}

@@ -26,7 +26,9 @@ option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em
     p{float: left;width: 100%;font-size: 17px;line-height: 23px;font-family: 'Nunito', sans-serif;font-weight: 
     400;}
     i{font-family: fontawesome;}
-/* common css end */
+    .confirm-btn a{transition: all 0.4s ease-in-out;-webkit-transition: all 0.4s ease-in-out;-moz-transition: all 0.4s ease-in-out;-o-transition: all 0.4s ease-in-out;-ms-transition: all 0.4s ease-in-out;}
+    ::selection,-moz-selection,-webkit-selection,-ms-selection,-moz-selection,-o-selection {color: #fff; background: #0757a2;}
+    /* common css end */
 
 /* location css start */
     .location{padding-top: 141px;padding-bottom: 110px;background-color: #f0f5f7;}
@@ -47,9 +49,16 @@ option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em
     .terms p{margin-bottom: 0;font-size: 13px;line-height: 18px;}
     .terms p a{text-decoration: underline;}
     .confirm-btn{margin-top: 20px;}
-    .confirm-btn a{float: left;background-color: #bdbec8;color: #fff;padding: 10px 50px;border-radius: 25px;font-size: 12px;line-height: 20px;}
-    .rules{min-height: 629px;}
+    .confirm-btn a{float: left;background-color: #0757a2;color: #fff;padding: 10px 50px;border-radius: 25px;font-size: 12px;line-height: 20px;font-family: 'Nunito', sans-serif;font-weight: 700;text-transform: uppercase;border: 2px solid transparent;}
+    .confirm-btn a:hover{background-color: transparent;color: #0757a2;border: 2px solid #0757a2}
+    .rules{min-height: 695px;}
     .rules h5{margin-bottom: 10px;}
     .rules p{font-style: 14px;line-height: 19px;margin-bottom: 20px;}
     .rules p span{font-weight: 900;margin-right: 10px;}
+    .contact-info{margin-top: 30px;}
+    .contact-info label{float: left;width: auto;font-size: 13px;line-height: 32px;margin-bottom: 0;margin-right: 10px;}
+    .contact-info .form-element{float: left;width: auto;}
+    .contact-info .form-element input{font-size: 14px;width: 214px;}
+    .contact-wrapper{float: left;width: auto;margin-right: 20px;}
+    .contact-wrapper:last-child{margin-right: 0;}
 /* location css end */
