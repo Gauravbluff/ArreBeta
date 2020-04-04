@@ -11,6 +11,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FoodfromresturantComponent } from './foodfromresturant/foodfromresturant.component';
 import { ArrebetaforbusinessComponent } from './arrebetaforbusiness/arrebetaforbusiness.component';
 import { LocationComponent } from './location/location.component';
+import { LaundryComponent } from './laundry/laundry.component';
 
 const routes: Routes = [
   {
@@ -60,6 +61,10 @@ const routes: Routes = [
   {
     path:'location',
     component:LocationComponent
+  },
+  {
+    path:'laundry',
+    component:LaundryComponent
   },
   {
     path:'**',

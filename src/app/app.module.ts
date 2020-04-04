@@ -16,6 +16,7 @@ import { MedicineComponent } from './medicine/medicine.component';
 import { GiftsComponent } from './gifts/gifts.component';
 import { ArrebetaforbusinessComponent } from './arrebetaforbusiness/arrebetaforbusiness.component';
 import { LocationComponent } from './location/location.component';
+import { LaundryComponent } from './laundry/laundry.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { LocationComponent } from './location/location.component';
     MedicineComponent,
     GiftsComponent,
     ArrebetaforbusinessComponent,
-    LocationComponent
+    LocationComponent,
+    LaundryComponent
   ],
   imports: [
     BrowserModule,
