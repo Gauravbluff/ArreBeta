@@ -39,7 +39,8 @@ option {font-weight: normal; display: block; white-space: pre; min-height: 1.2em
     .home-page-banner-content h3 strong{float: left;width: 100%;font-size: 40px;color: #f5ecec}
     .home-page-banner-content h3{margin-top: 0px;text-align: center;font-size: 40px;color: #fff;margin-bottom: 60px;line-height: 60px;font-family: 'Nunito', sans-serif;font-weight: 700;}
     .form-elenent{width: 100%;float: left;}
-    .form-elenent .form-control{width: 400px;height: 40px;border: none;padding: 0 40px;font-size: 14px;}
+        .services{margin-top: 60px;}
+    .form-elenent .form-control{width: 400px;height: 40px;border: none;padding: 0 40px;font-size: 14px;-moz-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);-webkit-box-shadow: 0px 0px  20x rgba(60 60 60 0.6);box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.6);}
     .flex{display: flex;flex-wrap: wrap;align-content: center;justify-content: center;}
     .submit-btn{color: #fff;
         display: inline-block;
